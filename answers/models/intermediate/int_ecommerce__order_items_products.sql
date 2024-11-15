@@ -30,3 +30,4 @@ SELECT
 
 FROM {{ ref('stg_ecommerce__order_items') }} AS order_items
 LEFT JOIN products ON order_items.product_id = products.product_id
+
